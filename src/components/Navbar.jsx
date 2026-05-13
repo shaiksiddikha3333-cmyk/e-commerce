@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 import { FiShoppingCart } from 'react-icons/fi';
-import MiniCart from './MiniCart';
+import MiniCart from './Minicart';
 
 const Navbar = () => {
   const { getCartCount, isMiniCartOpen, toggleMiniCart } = useCart();
